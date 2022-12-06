@@ -16,14 +16,15 @@ header {
 
 main {
   display: flex;
-  justify-content: center;
+  justify-content: center;z
 }
 
 .pearent_step {
   width: 30%;
   background-color: rgb(147, 140, 140);
 }
-
+/* pearent_stepクラスにpaddingを入れて、step要素でtop=0;left=0;position:absolute;でpearent_step要素にposition:relativeを入れることでうまく動く。; */
+/* relativeはなくてもいけるときといけない時ある理由がわからん。。 */
 .child_step {
   margin: 2%;
 }
